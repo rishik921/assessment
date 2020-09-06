@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Edumato</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src = "assesment.js"></script>
+        
+       
+        <link href="G:\Internship\day1\logo.png" rel="icon"></link>
+        <link href="assesment.css" rel="stylesheet"/>
+    </head>
+</html>
+<body>
+    <div class="container">
+        <nav class="colar navbar navbar-inverse">
+            <div class="conatiner-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="logo">
+                        <b>e!</b>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="panel panel-default col-sm-6 col-sm-offset-3" style="">
+                <div class = "panel-body">
+                    <p style = "font-size: .75vw; text-align: center; font-weight: bold;">Singup</p>
+                    <p style = "font-size:2vw; text-align: center; font-weight: lighter;">Create an Account</p>
+                    <p style ="font-size:0.5vw; text-align: center; font-weight: inherit;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="col">
+                        <a href="https://facebook.com" style="margin: 5px;" class="fb btn">
+                          <i class="fa fa-facebook-square"></i> Sign up with Facebook
+                        </a>
+                        <a href="https://google.com" style="margin: 5px;" class="google btn"><i class="fa fa-google fa-fw">
+                          </i> Sign up with Google+
+                        </a>
+                    </div>    
+                </div>
+                <div class="hl" style="text-align: center;">
+                    <span class ="innertext">or</span>
+                </div>
+                <div class="panel-body">
+                    <form name="Regform" action="/Sign up.php" onsubmit="return data()" method="post">
+                        <div class="form-group">
+                            <input type="text"  name="firstname" placeholder="First name" required class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text"  name="lastname" placeholder="Last name" required class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text"  name="Emailid" placeholder="Email ID" required class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text"  name="Password" placeholder="Password" required class="form-control"/>
+                        </div>
+                    </form>
+                    <p style="font-size: 0.75vw; text-align: center;">By clicking signup, you agree to our<a href="#">Terms & Privacy</a>.</p>
+                </div>
+                <div class="bottom-container">
+                    <div class="col">
+                        <a href="#" style="color:black" class="btn">Sign up</a>
+                      </div>
+                </div>
+
+              
+            </div>
+        </div>
+    </div>
+</body>

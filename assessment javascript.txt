@@ -1,0 +1,43 @@
+var url="https://reqres.in/"
+
+function data(){
+    var fname = document.forms["RegForm"]["firstname"];               
+    var lname = document.forms["RegForm"]["lastname"];    
+    var emailid = document.forms["RegForm"]["Emailid"];  
+    var password =  document.forms["RegForm"]["Password"];  
+    console.log(`${url}${fname}`)
+    fetch(`${url}${fname}`, {method:`GET`}) 
+    .then((response) => response.json())
+    .then((data) => {
+        if (fname.value == "")                                  
+    { 
+        window.alert("Please enter your fname."); 
+        name.focus(); 
+        return false; 
+    } 
+    if (lname.value == "")                                  
+    { 
+        window.alert("Please enter your lname."); 
+        name.focus(); 
+        return false; 
+    } 
+    if (emailid.value == "")                                  
+    { 
+        window.alert("Please enter your emailid."); 
+        name.focus(); 
+        return false; 
+    } 
+    if (password.value == "")                                  
+    { 
+        window.alert("Please enter your password."); 
+        name.focus(); 
+        return false; 
+    } 
+    return true;
+    })
+    .catch((err) => {
+        console.log(err)
+    })
+
+   
+}

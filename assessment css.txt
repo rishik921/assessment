@@ -1,0 +1,70 @@
+.logo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    height:45px;
+    width:45px;
+    margin-left: 25px;
+    
+    margin-top: 5px;
+    margin-bottom: 4px;
+    
+    float: left;
+}
+
+.hl{
+    text-align: center;
+    position: relative;
+
+}
+.hl:before{
+    content: "";
+    display: block;
+    position: absolute;
+    background:grey;
+    width: 200px;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    
+}
+.hl:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background: grey;
+    width: 200px;
+    height: 1px;
+    top: 50%;
+    right: 0;
+    
+}
+.bottom-container {
+    text-align: center;
+    background-color:skyblue;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .fb {
+    background-color: #3B5998;
+    color: white;
+    box-shadow: 0 3px 6px black;;
+
+  }
+  .google {
+    background-color: #dd4b39;
+    color: white;
+    box-shadow: 0 3px 6px black;;
+  }
+  .col{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  
